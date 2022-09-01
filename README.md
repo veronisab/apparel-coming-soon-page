@@ -4,8 +4,11 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ## Overview
 
+Not finished!
 
-- Work in progress
+
+
+Work in progress!
 
 
 
