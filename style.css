@@ -4,24 +4,33 @@ body {
     background:linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     min-height: 100vh;
     color: hsl(0, 36%, 70%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 header {
-    padding: 20px;
+    margin: 30px;
+    display: block;
 }
+
 main {
     width: 100%;
     display: block;
     margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.content p {
+    line-height: 1.5em;
 }
 
 h1 {
     font-size: 4em;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: normal;
 }
 
 h1 strong {
@@ -47,8 +56,14 @@ input {
     background-color: hsla(0, 0%, 0%, 0%);
 }
 
-@media screen and (min-width: 600px){
 
+
+@media screen and (min-width: 600px){
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 main {
      display: flex;
 }

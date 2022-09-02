@@ -12,20 +12,20 @@
 </head>
 <body>
 
-    <header>    
-       <img src="images/logo.svg">
-    </header>
-
     <main>
-      <div class="hero">
+      <header>    
+        <img src="images/logo.svg" style="width:50%; height:auto; max-width:300px;">
+     </header>
+
+      <figure class="hero">
         <picture>
           <source media="(max-width: 599px)" srcset="images/hero-mobile.jpg">
           <source media="(min-width: 600px)" srcset="images/hero-desktop.jpg">
           <img src="images/hero-mobile.jpg" alt="Model wearing a pink shirt">
         </picture>
-      </div>
+      </figure>
 
-      <div class="content">
+      <article class="content">
           <h1>We're <strong>coming soon</strong></h1>
 
           <p>
@@ -37,7 +37,7 @@
             <input id="email" type="email" placeholder="Email Address">
             <button id="submit" type="button"><img src="images/icon-arrow.svg"></button>
           </form>
-      </div>
+        </article>
         <!-- <footer>
           <p class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
